@@ -55,7 +55,7 @@ public class MathOperations {
         int fahrenheit = 250;
 
         System.out.println(celsius + " градусов Цельсия = " + celsiusToFahrenheit(celsius) + " градусов Фаренгейта");
-        System.out.println(celsius + " градусов Фаренгейта = " + fahrenheitToCelsius(fahrenheit) + " градусов Цельсия");
+        System.out.println(fahrenheit + " градусов Фаренгейта = " + fahrenheitToCelsius(fahrenheit) + " градусов Цельсия");
     }
 
     // задание 1
@@ -118,7 +118,7 @@ public class MathOperations {
     // 7. Метод для нахождения гипотенузы
 
     public static double findHypotenuse(double a, double b) {
-        return Math.sqrt(a * a + b +b);
+        return Math.sqrt(a * a + b * b);
     }
 
     // 8. Метод для длины окружности
