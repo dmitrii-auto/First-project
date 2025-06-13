@@ -12,7 +12,6 @@ public static void main (String[] arr){
 
     double divide1 = divide(3,2);
     System.out.println("Результат деления " + divide1);
-
 }
 
 public static int sum (int x,int y){
@@ -26,14 +25,11 @@ public static int multiply (int q, int w) {
 
 public static int substract (int x, int y) {
     return x - y;
-
 }
 
 public static double divide (int x, int y){
     return (double) x / y;
 }
-
-
 
 }
 

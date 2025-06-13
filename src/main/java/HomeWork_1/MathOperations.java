@@ -1,3 +1,5 @@
+package HomeWork_1;
+
 public class MathOperations {
 
     public static void main (String [] arr){
