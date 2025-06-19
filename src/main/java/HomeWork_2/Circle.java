@@ -24,4 +24,9 @@ public class Circle {
         return 2 * Math.PI * radius;
     }
 
+    void printInfo(){
+        System.out.println("Площадь круга = " + calculateArea());
+        System.out.println("Длина окружности круга = " + calculateCircumference());
+    }
+
 }

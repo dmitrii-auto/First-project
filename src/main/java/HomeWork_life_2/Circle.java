@@ -1,4 +1,4 @@
-package HomeWork_life;
+package HomeWork_life_2;
 
 public class Circle {
 
