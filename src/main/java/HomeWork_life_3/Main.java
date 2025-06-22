@@ -69,7 +69,8 @@ public class Main {
         University universityDima = new University(1112, "Дима");
         University universityKolya = new University(1113, "Николай");
 
-        University.setUniversityName("МГУ");
+        //University.setUniversityName("МГУ");
+        University.changeUniversityName("МГУ");
         universityIvan.printStudentInfo();
         universityDima.printStudentInfo();
         universityKolya.printStudentInfo();

@@ -19,7 +19,7 @@ public class GameSettings {
         maxPlayers = newMaxPlayers;
     }
 
-    String getGAME_NAME(){
+    String getGameName(){
         return this.GAME_NAME;
     }
 

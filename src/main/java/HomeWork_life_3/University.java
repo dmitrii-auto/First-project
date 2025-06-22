@@ -15,9 +15,9 @@ public class University {
         return universityName;
     }
 
-    static void setUniversityName(String newUniversityName){
-        universityName = newUniversityName;
-    }
+//    static void setUniversityName(String newUniversityName){
+//        universityName = newUniversityName;
+//    }
 
     int getStudentID(){
         return this.studentID;
