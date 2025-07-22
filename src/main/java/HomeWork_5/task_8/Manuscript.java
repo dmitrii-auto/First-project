@@ -7,7 +7,7 @@ public class Manuscript extends Exhibit{
     }
 
     @Override
-     void printIfo() {
+     void printInfo() {
         System.out.println(history);
     }
 

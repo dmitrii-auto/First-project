@@ -7,7 +7,7 @@ public class Sculpture extends Exhibit{
     }
 
     @Override
-    public void printIfo() {
+    public void printInfo() {
         System.out.println(history);
     }
 

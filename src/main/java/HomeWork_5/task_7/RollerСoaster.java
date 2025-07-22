@@ -7,7 +7,7 @@ public class RollerСoaster extends Attraction{
     }
 
     @Override
-    void printIfo() {
+    void printInfo() {
         System.out.println(description);
     }
 

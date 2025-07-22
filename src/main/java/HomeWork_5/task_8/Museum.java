@@ -9,7 +9,7 @@ public class Museum {
     }
 
     void printIfo(){
-        exhibit.printIfo();
+        exhibit.printInfo();
     }
 
      void manage(){

@@ -7,7 +7,7 @@ public class Carousel extends Attraction{
     }
 
     @Override
-    void printIfo() {
+    void printInfo() {
         System.out.println(description);
     }
 

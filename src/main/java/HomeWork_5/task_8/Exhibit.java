@@ -7,6 +7,6 @@ public abstract class Exhibit {
         this.history = history;
     }
 
-    abstract void printIfo();
+    abstract void printInfo();
     abstract void manage();
 }

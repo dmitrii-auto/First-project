@@ -7,6 +7,6 @@ public abstract class Attraction {
         this.description = description;
     }
 
-    abstract void printIfo();
+    abstract void printInfo();
      abstract void service();
 }

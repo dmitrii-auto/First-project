@@ -1,6 +1,6 @@
 package HomeWork_5.task_6;
 
-public class Kakuts extends Plant{
+public class Cactus extends Plant{
 
     @Override
     public void care() {
