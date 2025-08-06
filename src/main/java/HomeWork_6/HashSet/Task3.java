@@ -16,6 +16,6 @@ public class Task3 {
     }
 
     public static Set<String> removeDuplicate(List<String> list){
-        return new HashSet<String>(list) {};
+        return new HashSet<String>(list);
     }
 }
