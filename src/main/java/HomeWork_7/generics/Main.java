@@ -27,7 +27,7 @@ public class Main {
         printArray(arrayInt);
         System.out.println("");
 
-        ArrayList<String> arrayString = new ArrayList<>(List.of("1,2,3,4,5"));
+        ArrayList<String> arrayString = new ArrayList<>(List.of("1" , "2", "3", "4"));
         printArray(arrayString);
 
         //Task3

@@ -12,7 +12,7 @@ public class Task4 {
     }
 
     public static void checkEmail(String email) throws InvalidEmailException{
-        if (email == "email.ru"){
+        if (email.equals("email.ru")){
             System.out.println("Верный email");
         } else {
             throw new InvalidEmailException("Неверный email");

@@ -14,7 +14,7 @@ public class Task2 {
         System.out.print("Введите делимое : ");
         int divisible = scanner.nextInt();
 
-        System.out.print("Введите делимое : ");
+        System.out.print("Введите делитель : ");
         int divider = scanner.nextInt();
 
         try {
