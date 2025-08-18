@@ -7,10 +7,10 @@ public class Task3 {
     public static void main(String[] args) {
         List<String> lines = Arrays.asList("привет", "мир", "как", "жизнь");
 
-        List<Integer> filtered = lines.stream()
+        List<Integer> lengthList = lines.stream()
                 .map(String::length)
                 .toList();
-        System.out.println(filtered);
+        System.out.println(lengthList);
 
     }
 }

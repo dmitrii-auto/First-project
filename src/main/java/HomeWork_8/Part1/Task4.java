@@ -4,9 +4,9 @@ import java.util.function.Function;
 
 public class Task4 {
     public static void main(String[] args) {
-        Function<String, Integer> checkLengt = (String::length);
+        Function<String, Integer> checkLength = (String::length);
 
-        System.out.println(checkLengt.apply("Привет"));
+        System.out.println(checkLength.apply("Привет"));
 
     }
 }
